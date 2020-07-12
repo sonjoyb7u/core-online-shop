@@ -1,0 +1,27 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media screen (min-width: 576px) and (max-width: 767px) {
+    .col-md-6.order-cart {
+        margin-left: -4% !important;
+    }
+    .top-menu {
+        margin-left: -4%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .col-md-6.order-cart {
+        margin-left: 22%;
+    }
+    
+    .top-menu {
+        margin-right: 21%;
+    }
+    
+    .navbar-brand.home {
+        margin-bottom: -2%;
+    }
+    
+    
+}

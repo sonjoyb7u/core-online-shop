@@ -1,0 +1,138 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-size: 14px;
+    background: #f0f0f0;
+}
+
+.clear-fix {
+    overflow: hidden;
+}
+
+/* Header Top Section CSS */
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.btn-primary:hover {
+    color:  #fff !important;
+    background: #F59F02 !important;
+    border-color: #F59F02;
+}
+
+a:focus, a:hover {
+    color: #F59F02 !important;
+}
+
+
+/* Navbar Section CSS */
+.active a {
+    color: #F59F02 !important;
+}
+
+/* Slider Section CSS */
+
+
+/* Advantages Section CSS */
+
+
+
+/* Latest Products Section CSS */
+
+.box{
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+
+
+
+
+/*  Footer Section CSS  */
+
+
+/*  Copyright Section CSS  */
+
+#copyright{
+    background: #fff;
+    color: #4CAF50;
+    padding: 20px 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+#copyright p{
+    margin: 0px;
+}
+
+
+/*  Shop Page CSS  */
+
+/*  Breadcrumb Section CSS  */
+
+.breadcrumb{
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+.breadcrumb> li + li:before{
+    content: "/\00a0";
+    color: #ccc;
+    font-weight: bold;
+    width: 4px;
+
+}
+
+
+/*  Products Categories & Categories Section CSS */
+
+
+
+/*  Details Page Section CSS */
+
+
+
+.button {
+    text-align: center;
+}
+.button a {
+    margin-bottom: 10px;
+}
+
+
+/*  Cart Page Section CSS  */
+
+
+/*  Insert Product Page Section CSS  */
+.error_msg {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+/*  For Firefox Only  */
+
+@-moz-document url-prefix(){
+    .form-height-custom{
+        height: auto;
+    }
+}
+
+
+
