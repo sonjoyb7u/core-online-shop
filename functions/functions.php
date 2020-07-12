@@ -64,7 +64,7 @@ global $conn;
 $get_pro_cats = "SELECT * FROM tbl_product_categories";
 $run_pro_cats = mysqli_query($conn, $get_pro_cats);
 
-while($row_pro_cats = mysqli_fetch_array($run_pro_cats)):
+while($row_pro_cats = mysqli_fetch_assoc($run_pro_cats)):
 $pro_cats_id = $row_pro_cats['p_cat_id'];	
 $pro_cats_title = $row_pro_cats['p_cat_title'];
 
@@ -88,7 +88,7 @@ global $conn;
 $get_cats = "SELECT * FROM tbl_categories";
 $run_cats = mysqli_query($conn, $get_cats);
 
-while($row_cats = mysqli_fetch_array($run_cats)):
+while($row_cats = mysqli_fetch_assoc($run_cats)):
 $cats_id = $row_cats['cat_id'];	
 $cats_title = $row_cats['cat_title'];
 
